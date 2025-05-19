@@ -24,6 +24,7 @@ function Admin() {
 
   return (
     <>
+    <title>Admin</title>
       <input
         type="text"
         value={search}

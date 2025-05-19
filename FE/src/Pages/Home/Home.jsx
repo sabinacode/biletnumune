@@ -1,12 +1,12 @@
-import React from 'react'
-import OurProducts from '../../Components/OurProducts/OurProducts'
+import OurProducts from "../../Components/OurProducts/OurProducts";
 
 function Home() {
   return (
- <>
- <OurProducts/>
- </>
-  )
+    <>
+      <title>Home</title>
+      <OurProducts />
+    </>
+  );
 }
 
-export default Home
+export default Home;

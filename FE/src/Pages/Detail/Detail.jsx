@@ -18,11 +18,13 @@ function Detail() {
   }, []);
 
   return (
-    <div className="detail">
+    <><title>Detail</title><div className="detail">
       <img src={Details.image} alt="" />
       <h3>{Details.name}</h3>
       <p>{Details.price}</p>
     </div>
+    </> 
+   
   );
 }
 

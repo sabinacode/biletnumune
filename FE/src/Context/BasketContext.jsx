@@ -9,7 +9,6 @@ const [Basket, setBasket] = useState([])
 function addBasket(obj) {
   setBasket([...Basket,{...obj,count:1}])
 
-  
 }
 let value={Basket,setBasket,addBasket}
   return (

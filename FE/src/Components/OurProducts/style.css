@@ -1,10 +1,10 @@
 .Cards{
 display: flex;
 flex-wrap: wrap;
-gap: 60px;
+gap: 10px;
 }
 .Card{
     border: 1px solid black;
     width: 200px;
-    height: 250px;
+
 }

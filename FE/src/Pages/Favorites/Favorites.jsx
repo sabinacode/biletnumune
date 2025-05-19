@@ -3,7 +3,12 @@ import { useContext } from "react";
 import { FavoritesContext } from "../../Context/FavoritesContext";
 
 function Favorites() {
-  return <div>Favorites</div>;
+  return (
+  <>
+  <title>Favorites</title>
+  <div>Favorites</div>
+  </>
+  )
 }
 
 export default Favorites;

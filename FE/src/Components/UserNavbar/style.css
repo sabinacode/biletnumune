@@ -1,0 +1,20 @@
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+.natural{
+    display: flex;
+    gap: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}

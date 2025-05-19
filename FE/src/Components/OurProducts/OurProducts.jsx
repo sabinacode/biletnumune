@@ -32,7 +32,7 @@ console.log(Basket);
               <img
                 src={item.image}
                 alt=""
-                style={{ width: "200px", height: "250px" }}
+                style={{ width: "200px" }}
               />
             </h3>
             <p>{item.name}</p>

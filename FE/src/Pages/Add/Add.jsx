@@ -9,7 +9,8 @@ export const Add = () => {
     const res = await axios.post(url, body);
   }
   return (
-    <><title>add</title>
+    <>
+    <title>Add</title>
     <Formik
       initialValues={{ image: "", name: "", price: "" }}
       validationSchema={Yup.object({
